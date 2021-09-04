@@ -1,6 +1,6 @@
 import { uuid } from "uuidv4";
 
-export default class Requester {
+export class Requester {
     public readonly id: string;
 
     public amountUnit: number;
