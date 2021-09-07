@@ -7,4 +7,8 @@ export class PostgresRequesterRepository implements IRequesterRepository {
     async save(requester: Requester): Promise<void> {
         this.requesters.push(requester);
     }
+
+    async getAll(): Promise<Requester[]> {
+        return this.requesters;
+    }
 }
