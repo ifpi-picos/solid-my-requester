@@ -5,12 +5,12 @@ export class CreateRequesterController {
     constructor(private createRequesterUseCase: CreateRequesterUseCase) {}
 
     async handle(request: Request, response: Response) {
-        const { item, amountUnit } = request.body;
+        const { item, priceUnit } = request.body;
 
         try {
             await this.createRequesterUseCase.execute({
                 item,
-                amountUnit
+                priceUnit
             });
 
             return response.status(201).json();

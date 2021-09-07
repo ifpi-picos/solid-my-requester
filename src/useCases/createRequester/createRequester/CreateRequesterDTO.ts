@@ -1,4 +1,4 @@
 export interface IRequesterDTO {
-    amountUnit: number;
+    priceUnit: number;
     item: object;
 }
