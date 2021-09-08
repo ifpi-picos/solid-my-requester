@@ -1,4 +1,4 @@
-import { IRequesterRepository } from "../../../repositories/IRequesterRepository";
+import { IRequesterRepository } from "../../repositories/IRequesterRepository";
 
 export class GetAllRequesterUseCase {
     constructor(private requesterRepository: IRequesterRepository) {}

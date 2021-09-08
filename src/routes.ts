@@ -2,7 +2,7 @@ import { Router } from "express";
 import {
     createRequesterController,
     getAllRequesterController
-} from "./useCases/createRequester";
+} from "./useCases";
 
 const router = Router();
 

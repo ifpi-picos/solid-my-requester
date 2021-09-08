@@ -1,4 +1,4 @@
-import { PostgresRequesterRepository } from "../../repositories/implementations/PostgresRequesterRepository";
+import { PostgresRequesterRepository } from "../repositories/implementations/PostgresRequesterRepository";
 import { CreateRequesterController } from "./createRequester/CreateRequesterController";
 import { CreateRequesterUseCase } from "./createRequester/CreateRequesterUseCase";
 import { GetAllRequesterController } from "./getAll/GetAllRequesterController";

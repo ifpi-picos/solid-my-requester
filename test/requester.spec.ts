@@ -85,7 +85,7 @@ describe("Create Requester", () => {
                 .get(PATH)
                 .expect(function (response) {
                     expect(response.statusCode).toEqual(200);
-                    expect(response.body.data.length).toBe(32);
+                    expect(response.body.data.length).toBe(33);
                 })
                 .end(function (err, res) {
                     if (err) return done(err);
